@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     name='Basic',
-    version='0.0.1',
+    version='0.0.2',
     description='Basic package',
     long_description=readme,
     author='Kyle Patterson',
