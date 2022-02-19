@@ -1,9 +1,7 @@
-
-
 def main():
     return None
-    
-if __name__ == '__main__':
-    """[summary]
-    """
+
+
+if __name__ == "__main__":
+    """[summary]"""
     main()
