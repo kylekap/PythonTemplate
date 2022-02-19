@@ -1,12 +1,9 @@
-# Wordle Assistant
+# Title
 
-Gives a list of words based off good / bad / correct letters
-
-
+Text under the title
 ## ToFix
-- [ ] Verify all "included" letters remain included
+- [ ] Issue #1
 
 ## ToAdd
-- [ ] Positions of right letters, wrong positions
-- [ ] Prioritize remaining possible words to guess
+- [ ] Example
 <!--pip freeze > requirements.txt -->
