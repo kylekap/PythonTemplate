@@ -16,7 +16,7 @@ General Python template project.
 
 ## Requirements
 
-  * Python 3.7 or greater
+  * Python 3.6 or greater
 
 > This code makes use of the `f"..."` or [f-string syntax](https://www.python.org/dev/peps/pep-0498/). This syntax was introduced in Python 3.6.
 
@@ -35,10 +35,12 @@ To install requirements.txt
 To freeze requirements.txt after additional installs
 > pip freeze > requirements.txt
 
-To apply black (depends on system setup)
-> py -m black [filename]
+Pre-commit setup
+> pre-commit install
 
-> black [filename]
+> pre-commit run --all-files
+
+> pre-commit autoupdate
 
 To analyze flake8 violations
 > flake8 Project --output-file ./reports/flake8/flake8stats.txt
@@ -48,6 +50,14 @@ To analyze flake8 violations
 For genbadge on Flake8 (must do both flake8 commands first)
 > genbadge flake8 --output-file ./reports/flake8/badge.svg
 
+
+## Deployment / Usage caveats
+These items should be redundant now, with the use of pre-commit. Left here for legacy documentation.
+
+To apply black (depends on system setup)
+> py -m black [filename]
+
+> black [filename]
 
 ## TODO
 - [] Item 1
@@ -73,4 +83,3 @@ For genbadge on Flake8 (must do both flake8 commands first)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
-
