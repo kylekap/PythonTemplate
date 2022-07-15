@@ -42,10 +42,10 @@ dev = [
 ]
 
 [project.urls]
-homepage = 'https://github.com/kylekap/PyTemplate'
-documentation = 'https://github.com/kylekap/PyTemplate/tree/main/docs'
-repository = 'https://github.com/kylekap/PyTemplate'
-changelog = 'https://github.com/kylekap/PyTemplate/tree/main/Docs/Changelog.md'
+homepage = 'https://github.com/kylekap/PythonTemplate'
+documentation = 'https://github.com/kylekap/PythonTemplate/tree/main/docs'
+repository = 'https://github.com/kylekap/PythonTemplate'
+changelog = 'https://github.com/kylekap/PythonTemplate/tree/main/Docs/Changelog.md'
 
 
 [tool.black]
