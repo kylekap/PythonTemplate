@@ -1,7 +1,7 @@
 # First-party/Local
-import src.core
+import core
 
 
 def test_core():
     # Pass
-    assert src.core.main() is None
+    assert core.main() is None
