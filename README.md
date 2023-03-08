@@ -17,11 +17,13 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylekap/PythonTemplate.svg)](https://github.com/kylekap/PythonTemplate/pulls)
 
 ## About
+
 This project is to create a base template and include some common commands in the docs/Resources.md to allow utilization of this project as a baseline for future projects.
 
 This project is intended to meet the requirements of PEP-518 and PEP-621, removing the setup.py file and having only minor use of setup.cfg (intended at this time only for flake8 support)
 
 ## Contents
+
 - [Python Template Project](#python-template-project)
   - [About](#about)
   - [Contents](#contents)

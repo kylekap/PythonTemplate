@@ -1,7 +1,14 @@
 # Changelog
 
+## 2023.1
+
+Updated referenced python packages
+Updated setup.cfg to use new flake8 requirements in comments on cfg files.
+
 ## 2022.4
+
 - Add logging capabilities & notation
 
 ## 2022.3 & earlier
-- See Github, changelog implementation not yet complete.
+
+- See Github, changelog implementation not yet complete
