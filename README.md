@@ -2,9 +2,6 @@
 
 [![Coverage Status](./reports/coverage/badge.svg)](./reports/coverage/badge.svg)
 [![pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
-[![Build Status](https://github.com/kylekap/PythonTemplate/workflows/pre-commit/badge.svg)](https://github.com/kylekap/PythonTemplate/actions)
-[![Build Status](https://travis-ci.com/kylekap/PythonTemplate.svg?branch=main)](https://travis-ci.com/kylekap/PythonTemplate)
-[![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
 [![Python](https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance)](https://www.python.org/downloads/release/python-3100/)
 
 [![GitHub Issues](https://img.shields.io/github/issues/kylekap/PythonTemplate.svg)](https://github.com/kylekap/PythonTemplate/issues)
