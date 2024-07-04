@@ -1,5 +1,10 @@
 # Changelog
 
+## 2024.1
+
+Updated referenced python packages
+Updated to Ruff for the linting & formatting, over black/flake8
+
 ## 2023.1
 
 Updated referenced python packages

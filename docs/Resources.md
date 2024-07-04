@@ -33,3 +33,8 @@ Pre-commit setup
 >pre-commit install
 >pre-commit run --all-files
 >pre-commit autoupdate
+
+Ruff
+ruff format                   # Format all files in the current directory.
+ruff format path/to/code/     # Format all files in `path/to/code` (and any subdirectories).
+ruff format path/to/file.py   # Format a single file
