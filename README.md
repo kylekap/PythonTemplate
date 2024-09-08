@@ -1,6 +1,5 @@
 # Python Template Project
 
-[![Coverage Status](./reports/coverage/badge.svg)](./reports/coverage/badge.svg)
 [![pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 [![Python](https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance)](https://www.python.org/downloads/release/python-3100/)
 
