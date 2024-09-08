@@ -27,7 +27,6 @@ readme = {file = ['README.md']}
 dev = [
 'pytest>=8.2.2',
 'pyupgrade>=3.16.0',
-'coverage>=7.5.4',
 'pre-commit>=3.7.1',
 ]
 
@@ -47,19 +46,3 @@ indent-style = "space" # Like Black, indent with spaces, rather than tabs.
 
 [tool.ruff.lint]
 ignore = ["E501"] # Avoid enforcing line-length violations (`E501`)
-
-
-[tool.coverage.paths]
-source = ['src']
-tests = ['tests']
-
-[tool.coverage.run]
-source = ['src']
-
-[tool.coverage.report]
-show_missing = true
-ignore_errors = true
-exclude_lines = ["if __name__ == .__main__.:"]
-
-[tool.coverage.html]
-directory = "coverage_html_report"
