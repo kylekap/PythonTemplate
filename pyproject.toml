@@ -45,4 +45,18 @@ quote-style = "double" # Like Black, use double quotes for strings.
 indent-style = "space" # Like Black, indent with spaces, rather than tabs.
 
 [tool.ruff.lint]
-ignore = ["E501"] # Avoid enforcing line-length violations (`E501`)
+select = ["ALL"]
+ignore = [
+    "ANN",  # flake8-annotations
+    "E501", # Avoid enforcing line-length violations (`E501`)
+    "D100", # ignore missing docs
+    "D101",
+    "D102",
+    "D103",
+    "D104",
+    "D105",
+    "D106",
+    "D107",
+    "T201", # I'm gunna print sometimes, you gotta live with it
+    "ARG002", # Sometimes, you want functions to match
+    ]

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2024.3
+
+Update Ruff configuration
+
+## 2024.2
+
+Remove coverage badge
+
 ## 2024.1
 
 Updated referenced python packages
