@@ -48,7 +48,8 @@ indent-style = "space" # Like Black, indent with spaces, rather than tabs.
 select = ["ALL"]
 ignore = [
     "ANN",  # flake8-annotations
-    "E501", # Avoid enforcing line-length violations (`E501`)
+    "ARG002", # Sometimes, you want functions to match
+    "COM812", # trailing commas, redundant with formatter
     "D100", # ignore missing docs
     "D101",
     "D102",
@@ -57,6 +58,9 @@ ignore = [
     "D105",
     "D106",
     "D107",
+    "D203", # D211 preferred
+    "D213", # D212 preferred
+    "E501", # Avoid enforcing line-length violations (`E501`)
+    "S101", # Assert is only used in the testing modules
     "T201", # I'm gunna print sometimes, you gotta live with it
-    "ARG002", # Sometimes, you want functions to match
     ]
