@@ -5,6 +5,7 @@
 
 [![GitHub Issues](https://img.shields.io/github/issues/kylekap/PythonTemplate.svg)](https://github.com/kylekap/PythonTemplate/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylekap/PythonTemplate.svg)](https://github.com/kylekap/PythonTemplate/pulls)
+![GitHub License](https://img.shields.io/github/license/kylekap/PythonTemplate)
 
 ## About
 
