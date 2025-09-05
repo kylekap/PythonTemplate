@@ -1,5 +1,16 @@
 # Changelog
 
+## 2025.1
+
+- Resources.md
+  - Update Resources.md formatting
+  - Remove coverage/flake8/genbadge information as it is outdated for the intended structure of projects.
+- Travis.yaml
+  - Removed
+- pyproject.toml
+  - updated to python 3.9
+  - update active version number
+
 ## 2024.3
 
 Update Ruff configuration

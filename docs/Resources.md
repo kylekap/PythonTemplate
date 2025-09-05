@@ -8,33 +8,46 @@
 
 ## Common Commands
 
-To create virtual environment:
+### To create virtual environment
+
 >py -m venv env
 
-To activate
+### To activate
+
 >env\Scripts\activate
 
-To install
+### To install
+
 >py -m pip install .
+
+### To install including development tags
+
 >py -m pip install .[dev]
 
-Advanced flake8
->flake8 src --exit-zero --format=html --htmldir reports/flake8 --statistics --tee --output-file reports/flake8/flake8stats.txt
+## Ruff
 
-Coverage
->py -m coverage run -m pytest
->coverage xml -o reports/coverage/coverage.xml
+### Format all files in the current directory
 
-For genbadge (must do both those modules (ie flake8/coverage) commands first)
->genbadge flake8 --output-file ./reports/flake8/badge.svg
->genbadge coverage --output-file ./reports/coverage/badge.svg  
+>ruff format
 
-Pre-commit setup
+### Format all files in `path/to/code` (and any subdirectories)
+
+>ruff format path/to/code/
+
+### Format a single file
+
+>ruff format path/to/file.py
+
+## Pre-commit
+
+### Install
+
 >pre-commit install
->pre-commit run --all-files
->pre-commit autoupdate
 
-Ruff
-ruff format                   # Format all files in the current directory.
-ruff format path/to/code/     # Format all files in `path/to/code` (and any subdirectories).
-ruff format path/to/file.py   # Format a single file
+### Run
+
+>pre-commit run --all-files
+
+### Get it to autoupdate
+
+>pre-commit autoupdate

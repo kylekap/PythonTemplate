@@ -14,7 +14,7 @@ def main():
     # Main function
 
     try:
-        True
+        True  # noqa: B018
     except Exception as E:
         logger.warning(type(E).__name__, __file__, E.__traceback__.tb_lineno, "\n", E)
         raise
