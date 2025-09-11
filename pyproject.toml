@@ -49,6 +49,7 @@ select = ["ALL"]
 ignore = [
     "ANN",  # flake8-annotations
     "ARG002", # Sometimes, you want functions to match
+    "BLE001", 
     "COM812", # trailing commas, redundant with formatter
     "D100", # ignore missing docs
     "D101",
