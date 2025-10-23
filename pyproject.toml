@@ -3,6 +3,8 @@
 # 2. Update description
 # 3. Add any necessary dependencies / dev-dependencies as you install them
 # 4. Verify version of python matches installed  python. Currently set to Python 3.9
+# 5. Update author info
+# 6. Update project URLs
 
 [build-system]
 requires = ['setuptools', 'wheel']
@@ -15,8 +17,11 @@ description = 'Python template file for faster setup and builds'
 requires-python = '>=3.9'
 license = {file = "LICENSE.txt"}
 keywords = ['Python']
-authors = [{email = 'kylekaptbone@yahoo.com'},{name = 'Kyle Patterson'}]
-classifiers = ['Programming Language :: Python']
+authors = [
+    {email = 'kylekaptbone@yahoo.com'},
+    {name = 'Kyle Patterson'}
+    ]
+classifiers = ['Programming Language :: Python :: 3.9']
 dynamic = ['readme']
 dependencies = ['ruff']
 
@@ -35,6 +40,7 @@ homepage = 'https://github.com/kylekap/PythonTemplate'
 documentation = 'https://github.com/kylekap/PythonTemplate/tree/main/docs'
 repository = 'https://github.com/kylekap/PythonTemplate'
 changelog = 'https://github.com/kylekap/PythonTemplate/tree/main/Docs/Changelog.md'
+issue = 'https://github.com/kylekap/PythonTemplate/issues'
 
 
 [tool.ruff]
@@ -46,6 +52,7 @@ indent-style = "space" # Like Black, indent with spaces, rather than tabs.
 
 [tool.ruff.lint]
 select = ["ALL"]
+fixable = ["ALL"]
 ignore = [
     "ANN",  # flake8-annotations
     "ARG002", # Sometimes, you want functions to match
